@@ -11,7 +11,7 @@ setup(
     description='使Python开发变的更简单',
     long_description='Python 简化处理工具，轻松、快捷编码，使Python开发变的更简单。',
     author_email='521274311@qq.com',
-    url='https://gitee.com/kingons/pyeasy-black-unique.git',
+    url='https://gitee.com/kingons/pyeasytd-black-unique.git',
     packages=setuptools.find_packages(),
     install_requires= [
         # 'fake-useragent>=0.1.11',

@@ -6,10 +6,10 @@
 
 使用实例：
 1.MysqlUtil  
-from pyeasy.mysql_util import MysqlUtil  
+from pyeasytd.mysql_util import MysqlUtil  
 obj = MysqlUtil.connect(...)  
 MysqlUtil.xxx(obj, ...)  
 2.JsonUtil  
-from pyeasy.json_util import JsonUtil  
+from pyeasytd.json_util import JsonUtil  
 obj = JsonUtil.loads(...)  
 JsonUtil.xxx(obj, ...)    

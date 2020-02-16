@@ -50,3 +50,11 @@ class BasicCheckUtil:
         :return:
         '''
         return not cls.is_none(param)
+
+    @classmethod
+    def equels(cls, a, b):
+        if type(a) == type(b):
+            if (type(a) in (int, float, str, bool)):
+                if a == b:
+                    return True
+                return False

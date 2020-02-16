@@ -16,6 +16,7 @@ setup(
     install_requires= [
         # 'fake-useragent>=0.1.11',
         'PyMySQL>=0.9.3',
+        'xlrd>=1.2.0',
         # 'numpy>=1.17.4',
         # 'moviepy>=1.0.1',
         # 'Pillow>=6.2.1',

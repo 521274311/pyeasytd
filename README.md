@@ -12,10 +12,15 @@ JsonUtil.xxx(obj, ...)
 3.FileUtil  
 from pyeasytd.file_util import FileUtil  
 FileUtil.xxx(...)  
+4.XlsxFileUtil  
+from pyeasytd.file_util import XlsxFileUtil  
+obj = XlsxFileUtil(...)  
+XlsxFileUtil.xxx(...)  
 
 0.0.2版本变更内容：  
-1.新增FileUtil工具类  
+1.新增XlsxFileEasyEntry实体  
+2.新增FileUtil工具类，新增XlsxFileUtil工具类  
   
 0.0.1版本变更内容：  
-1.新增MysqlEasyEntry,JsonEasyEntry对象  
+1.新增MysqlEasyEntry,JsonEasyEntry实体  
 2.新增MysqlUtil,JsonUtil工具类  

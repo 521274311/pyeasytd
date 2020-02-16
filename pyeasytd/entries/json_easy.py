@@ -8,8 +8,8 @@ class JsonEasyEntry:
     __init_load_status = False
     __json = None
     __json_text = None
-    __struct = {}
-    __count = {}
+    __struct = None
+    __count = None
 
     def __init__(self, data: str or dict or list or bytes or bytearray):
         import json
@@ -19,6 +19,8 @@ class JsonEasyEntry:
         elif type(data) in (dict, list, tuple):
             self.__json = data
             self.__json_text = json.dumps(data)
+        self.__struct = {}
+        self.__count = {}
 
     def print(self):
         '''

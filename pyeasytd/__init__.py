@@ -58,3 +58,14 @@ class BasicCheckUtil:
                 if a == b:
                     return True
                 return False
+    @classmethod
+    def contains(cls, a, b):
+        '''
+        a contains b ?
+        :param a:
+        :param b:
+        :return:
+        '''
+        return b in a
+
+

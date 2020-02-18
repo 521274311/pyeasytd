@@ -16,6 +16,11 @@ FileUtil.xxx(...)
 from pyeasytd.file_util import XlsxFileUtil  
 obj = XlsxFileUtil(...)  
 XlsxFileUtil.xxx(...)  
+5 from pyeasytd.wechat import send_message_to_enterprise_wechat  
+send_message_to_enterprise_wechat(...)  
+
+0.0.4版本变更内容  
+1.新增企业微信群机器人推送函数  
 
 0.0.3版本变更内容：  
 1.新增XlsxFileEasyEntry实体  

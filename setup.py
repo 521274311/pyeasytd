@@ -7,7 +7,7 @@ import setuptools
 setup(
     name='pyeasytd',
     author='dragons',
-    version='0.0.3',
+    version='0.0.4',
     description='使Python开发变的更简单',
     long_description='Python 简化处理工具，轻松、快捷编码，使Python开发变的更简单。',
     author_email='521274311@qq.com',
@@ -20,7 +20,7 @@ setup(
         # 'numpy>=1.17.4',
         # 'moviepy>=1.0.1',
         # 'Pillow>=6.2.1',
-        # 'requests>=2.22.0',
+        'requests>=2.22.0',
         # 'urllib3>=1.25.7',
         # 'bs4>=0.0.1',
     ],
